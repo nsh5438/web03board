@@ -1,0 +1,52 @@
+.home-header{
+  border-bottom: 1px solid gray;
+  font-size: 20pt;
+}
+
+.home-board{
+  margin: 50px 0 50px 50px;
+}
+
+.board-header{
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 55px;
+
+  .itembar{
+    list-style-type: none;
+    text-align: center;
+    li {
+      float: left;
+      color: black;
+      padding: 10px 20px 10px 20px;
+      width: 30%;
+      &:first-child{
+        width: 30%;
+      }
+    }
+  }
+
+  .item-title{
+    li{
+      color: darkgray;
+    }
+  }
+
+  .btn_new{
+    a{
+      display: inline-block;
+      margin: 50px 0 50px 50px;
+      text-decoration: none;
+      color: black;
+
+      &:hover{
+        color: red;
+        border-bottom: 1px solid red;
+      }
+    }
+  }
+
+
+}

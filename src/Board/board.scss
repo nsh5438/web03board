@@ -1,0 +1,38 @@
+.board-view-item{
+
+  margin: 50px 50px 50px 50px;
+  > div{
+    padding-top: 20px;
+    border-bottom: 1px solid silver;
+  }
+
+  .board-view-content{
+    border : 1px solid silver;
+    min-height: 50vh;
+  }
+}
+
+.btn_new{
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 20px;
+    &:hover{
+      color: red;
+    }
+  }
+
+  button{
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0!important;
+    font: inherit;
+    cursor: pointer;
+    margin: 0 20px 0 20px;
+    &:hover{
+      color: red;
+    }
+  }
+}
